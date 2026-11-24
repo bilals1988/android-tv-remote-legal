@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Android TV Remote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Android TV Remote</a>
+    <nav aria-label="Legal pages"><a href="privacy.html" aria-current="page">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+  </header>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p>Effective 24 November 2026</p>
+    <p>This policy describes how Bilal B. S. handles information in Android TV Remote (launcher name TV Remote, package <code>com.simpleapps.androidtvremote</code>). The app operates without a developer-operated account or backend. Some features send information to your television, selected receiver, Google, or your email provider.</p>
+
+    <h2>TV discovery, pairing and remote control</h2>
+    <p>On your local network the app exchanges discovery messages and reads device names, service information, and network addresses to find compatible TVs and receivers. When you pair an Android TV or Google TV, the app uses the displayed PIN to establish pairing. It keeps saved device names and addresses, pairing certificates, private keys, and the TV certificate fingerprint in local secure storage. Subsequent Remote v2 connections use TLS and check the paired TV certificate. Remote commands go to the selected TV.</p>
+    <p>App preferences, such as theme, layout, favorite shortcuts, and the artwork trial status, are kept on the phone. The Android home-screen widget keeps the selected TV label and local widget preferences and uses the app’s connection or activity to route commands. The widget does not store the TV’s private key.</p>
+
+    <h2>Keyboard and voice search</h2>
+    <p>When you use the remote keyboard, the app can receive the TV’s focused text and editing state and transmit text edits to that TV over the encrypted remote connection. The app uses that information for the active interaction and does not save a typing history. Support depends on the TV’s software and the active field. The receiving TV or app may handle text under its own privacy terms.</p>
+    <p>Voice search asks for Android microphone permission. When you activate voice search on a supported TV, the app captures audio while you hold the control, streams it to that TV over the encrypted remote connection, and stops capture when the interaction ends or is interrupted. The app does not keep recordings or transcripts and does not send speech to a developer-operated server. The TV, its search or assistant provider, or another receiving service may process audio or search queries, including through online services, according to its own settings and policies. You can revoke microphone access in Android Settings.</p>
+
+    <h2>TV Art and personal photos</h2>
+    <p>In versions with casting enabled, you can display bundled artwork or, with verified Pro, choose a personal image using Android’s system photo picker or file chooser. The app accesses the image you choose, not your entire photo library. It prepares a display copy in memory and re-encodes personal photos to omit source metadata.</p>
+    <p>The app uses Google Cast or, where enabled, experimental DLNA to tell a selected receiver where to fetch the image. The phone briefly serves the image over <strong>unencrypted local HTTP</strong>. The endpoint uses a random path, checks the selected receiver’s local address, and expires after a short period. It also closes during session cleanup. Use casting on a network you trust. The app does not upload the image to a developer server. A receiver can retain or cache a fetched image even after the phone’s endpoint closes.</p>
+    <p>Google Cast and Google Play services process information needed for their features. Google’s Cast SDK documentation also describes SDK analytics sent to Google about the sender, discovery and sessions. The selected receiver and any receiving service may process their own data separately. See <a href="https://developers.google.com/cast/docs/android_sender/data_disclosure">Google Cast data disclosure</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <p>Where the free artwork trial is enabled, the app keeps an installation-local usage marker when a receiver finishes fetching the trial image after an accepted load. That record does not establish that the image was visible on the TV. Clearing app data or reinstalling may reset the marker.</p>
+
+    <h2>Purchases</h2>
+    <p>Google Play handles payment and supplies product and purchase information, including purchase status and signed transaction data, to the app for checking and restoring Lifetime Pro. Pending or unverified purchases do not by themselves unlock Pro. The app does not receive payment card details or send receipts to a developer-operated server. Google handles its payment and account records under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>Feedback, diagnostics and links</h2>
+    <p>Feedback opens an editable draft in your email app. The draft may contain the app version and build, Android version, phone model, and a saved TV label if it passes the app’s checks. You can remove these details or close the draft. The app does not send it automatically or attach logs, photos, or credentials. If you send it, the developer and the email services involved receive the message and sender details. The developer retains correspondence as needed to respond, address recurring issues, or meet legal obligations.</p>
+    <p>Some internal builds offer opt-in diagnostics with limited technical information. Copying and sharing the output is up to you. The app does not include developer advertising, tracking, or crash-reporting services. Share and Rate hand off to Android or Google Play. Streaming shortcuts hand links to the selected TV. Third-party apps and services follow their own policies.</p>
+
+    <h2>Legal website</h2>
+    <p>The legal website uses GitHub Pages and has no developer-added analytics or tracking scripts. GitHub logs visitor IP addresses for site security. See <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection</a>.</p>
+
+    <h2>Retention, deletion and rights</h2>
+    <p>Saved TVs and preferences normally remain until you remove or reset them. Forget a TV in Settings to remove its stored pairing material for that TV. Clearing app data or uninstalling removes data stored by the app on the phone. It does not remove Google Play purchase history, information already received or retained by a TV, or feedback previously sent. Contact the relevant provider to manage its records.</p>
+    <p>Depending on applicable law, you may have rights to access, correct, delete, or restrict use of personal information, or to object or complain to a supervisory authority. Contact <a href="mailto:bilal1988@gmail.com">bilal1988@gmail.com</a> about information held by the developer. Information kept only on your phone or by another provider cannot be retrieved by the developer.</p>
+
+    <h2>Children and policy updates</h2>
+    <p>The app is intended for a general audience and is not directed to children. Contact the developer if you believe a child provided personal information to the developer so the request can be investigated. Updates to this policy will be posted here with a revised effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Bilal B. S. · <a href="mailto:bilal1988@gmail.com">bilal1988@gmail.com</a></p>
+  </main>
+  <footer>Android TV Remote · Bilal B. S.</footer>
+</body>
+</html>
